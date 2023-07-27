@@ -1,0 +1,64 @@
+*{
+   
+    background-color:black;
+    color: antiquewhite;
+}
+
+.formdata{
+    color:rgb(245, 244, 244);
+    display: flex;
+    padding:20%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+ }
+
+   form{
+    padding: 6%;
+    border-radius: 5px;
+    border: 0.5px solid rgb(232, 227, 227);
+    background-color: rgba(0, 0, 0, 0.15);
+   }
+   input{
+    border: 1px solid rgb(237, 230, 227);
+    border-radius: 5px;
+    width: 100%;
+    font-size: larger;
+    padding: 5px;
+   }
+   .buttonitem{
+    margin-left: 25%;
+    margin-top: 15%;
+      }
+      button{
+        padding: 10px;
+        margin-left: 15px;
+        border: 1px solid wheat;
+        border-radius: 5px;
+        background-color: rgb(241, 242, 243);
+        color:rgb(24, 24, 23);
+      }
+.listdata{
+    color:rgb(245, 244, 244);
+    display: flex;
+margin-top:15px ;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}      
+table,tr,th,td{
+border:1px solid beige;
+border-collapse: collapse;
+padding: 10px;
+text-align: center;
+
+}
+th,td{
+    font-size: larger;
+
+}
+td{
+    text-align:left;
+}
